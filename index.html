@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Upload Image to Telegra.ph</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  form {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="file"] {
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 20px 0;
+  }
+  .image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+  }
+  strong {
+    color: #007bff;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #007bff;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Upload Image to Telegra.ph</h1>
+  <form method="post" action="https://telegra.ph/upload" enctype="multipart/form-data" target="_blank">
+    <label for="select-file">Select Image (&lt;5MB):</label>
+    <input id="select-file" name="file0" type="file">
+    <input value="Click to Upload" type="submit">
+  </form>
+  <hr />
+  <div class="image-container">
+    <p>The URL of the image below is <strong>https://telegra.ph/file/d39104297903c204c2311.jpg</strong></p>
+    <img src="https://telegra.ph/file/d39104297903c204c2311.jpg" alt="Uploaded Image">
+  </div>
+  <div class="footer">
+    Made with ♥ by <a href="https://telegram.me/ZORO2045">ፚ Ꭷ Ꮢ Ꭷ ❥</a>
+  </div>
+</div>
+</body>
+</html>
