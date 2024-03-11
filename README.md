@@ -1,5 +1,7 @@
 # Upload Image to Telegra.ph
 
+![Upload Image to Telegra.ph](banner_image.jpg)
+
 ## Description
 This repository contains a simple HTML page that allows users to upload images to Telegra.ph.
 
