@@ -1,4 +1,4 @@
-#$ Upload Image to Telegra.ph
+## Upload Image to Telegra.ph
 
 ![Upload Image to Telegra.ph](banner_image.jpg)
 
