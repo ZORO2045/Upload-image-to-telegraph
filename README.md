@@ -17,4 +17,4 @@ This repository contains a simple HTML page that allows users to upload images t
    - Clickable: [https://telegra.ph/file/81c72f469e651d7d8b12e.jpg](https://telegra.ph/file/81c72f469e651d7d8b12e.jpg)
 
 ## Credits
-Made with ♥ by [ፚ Ꭷ Ꮢ Ꭷ ❥](https://telegram.me/ZORO2045)
+Made with ♥ by [ፚ Ꭷ Ꮢ Ꭷ ❥].(https://telegram.me/ZORO2045)
