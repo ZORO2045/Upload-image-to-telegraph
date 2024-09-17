@@ -1,4 +1,4 @@
-## Upload Image to Telegra.ph
+# Upload Image to Telegra.ph
 
 ![Upload Image to Telegra.ph](banner_image.jpg)
 
@@ -15,6 +15,10 @@ This repository contains a simple HTML page that allows users to upload images t
 4. **To convert this URL to a clickable link, simply prepend it with the Telegra.ph domain:**
    - Original: `{"src":"/file/81c72f469e651d7d8b12e.jpg"}`
    - Clickable: [https://telegra.ph/file/81c72f469e651d7d8b12e.jpg](https://telegra.ph/file/81c72f469e651d7d8b12e.jpg)
+
+## Notes
+- **New media uploads to Telegraph, the standalone blogging tool, have been disabled due to misuse by anonymous actors.**  
+- For more details, refer to the original message on Telegram [here](https://t.me/durov/343).
 
 ## Credits
 Made with ♥ by [ፚ Ꭷ Ꮢ Ꭷ ❥](https://telegram.me/ZORO2045).
